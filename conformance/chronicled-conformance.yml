@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.chronicled.com/data-security
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'chronicled.com/data-security publishes SOC 2 Type 2 compliance covering
+    security, availability, and processing integrity; a SOC 2 report is available
+    on request'
+- id: dscsa
+  conforms: true
+  evidence: 'MediLedger Network provides DSCSA-compliant product verification and
+    interoperable track-and-trace for the U.S. pharmaceutical supply chain (per
+    chronicled.com product pages)'
+notes: 'Chronicled/MediLedger is a private B2B blockchain network for life-sciences
+  trading partners; it publishes no OpenAPI, developer portal, OAuth surface, or
+  public API reference, so cross-cutting API standards (oauth2/oidc/rfc9457/json:api)
+  could not be derived. Standards above are from published compliance and product
+  claims only.'

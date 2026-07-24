@@ -1,8 +1,14 @@
 aid: chronicled
 name: Chronicled
-description: 'Chronicled is a company surfaced as a portfolio company of pantera-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Chronicled is a San Francisco technology company that builds and administers
+  the blockchain-powered MediLedger Network, a decentralized platform that automates
+  business-rule enforcement and trusted data exchange between trading partners in the
+  pharmaceutical and life sciences supply chain. Its solutions span DSCSA-compliant
+  product verification, contracts and chargebacks, gross-to-net (GPO roster and rebate)
+  reconciliation, and customer master data management for manufacturers, wholesalers,
+  distributors, health systems, and group purchasing organizations. Chronicled publishes
+  no public API, developer portal, or OpenAPI; it operates a private B2B network and
+  is backed by Pantera Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/chronicled/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://avatars.githubusercontent.com/u/10505454?v=4
 tags:
 - Company
 - Crypto
+- Blockchain
+- Supply Chain
+- Pharmaceutical
+- Life Sciences
+- Healthcare
+- DSCSA
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.chronicled.com/
+- type: Blog
+  url: https://www.chronicled.com/blog
+- type: Pricing
+  url: https://www.chronicled.com/pricing
+- type: SignUp
+  url: https://www.chronicled.com/request-demo
+- type: Support
+  url: https://www.chronicled.com/faqs
+- type: TermsOfService
+  url: https://www.chronicled.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.chronicled.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/chronicled
+- type: Compliance
+  url: https://www.chronicled.com/data-security
+- type: Conformance
+  url: conformance/chronicled-conformance.yml
+- type: DomainSecurity
+  url: security/chronicled-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
